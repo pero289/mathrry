@@ -32,7 +32,9 @@ exports.Dbtp = (x1,y1,x2,y2) => {
 }
 
 exports.Dfptl = (x, y, exp) => {
-    return exp;
+    exp = exp.replace(/ /gi,'')
+    value = exp
+    return value;
 }
 
 // Triangle
