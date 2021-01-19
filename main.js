@@ -84,3 +84,15 @@ exports.AoC = (r) => {
         return Error;
     }
 }
+
+// 3D
+// Coordinate things
+// Cubes
+exports.TdoC = (l) => {
+    if (r>0) {
+        return Math.sqrt(Math.pow(l,2)*3)
+    }
+    else {
+        return Error;
+    }
+}

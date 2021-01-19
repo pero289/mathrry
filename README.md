@@ -69,3 +69,13 @@ mathrry.AoC(r)
 ```
 `r` is the radius of the circle for which you want to know the area.
 
+# 3D
+## Coordinate things
+
+### Cube
+#### The Diagonal of the cube
+```js
+mathrry.TdoC(l)
+```
+`l` is the length of one side of the cube.
+
