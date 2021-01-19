@@ -53,7 +53,13 @@ exports.Aotw3ls = (l1, l2, l3) => {
         return Error;
     }
 }
+
 // Circle
 exports.AoC = (r) => {
-    return Math.pow(r,2)*Math.PI
+    if (r>0) {
+        return Math.pow(r,2)*Math.PI
+    }
+    else {
+        return Error;
+    }
 }
