@@ -38,9 +38,20 @@ exports.Aotw3p = (x1,y1,x2,y2,x3,y3) => {
 }
 
 exports.Aotw3ls = (l1, l2, l3) => {
-    let s = 0.5*(l1+l2+l3)
-    let value = Math.sqrt(s*((s-l1)+(s-l2)+(s-l3)))
-    return value;
+    if (l1>0 && l2 > 0 && l3 > 0){
+        if (Math.max(l1,l2,l3) > l1+l2+l3 - Math.max(l1,l2,l3)){
+            return Error;
+        }
+    
+        else {
+            let s = 0.5*(l1+l2+l3)
+            let value = Math.sqrt(s*(s-l1)*(s-l2)*(s-l3))
+            return value;
+        }
+    }
+    else {
+        return Error;
+    }
 }
 // Circle
 exports.AoC = (r) => {
