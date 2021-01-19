@@ -24,10 +24,26 @@ exports.revmulti = (a,b) => {
 }
 
 // Coordinate things
+
+//Points
 exports.Dbtp = (x1,y1,x2,y2) => {
     let value = Math.sqrt(Math.pow(x1-x2,2) + Math.pow(y1-y2,2))
     return value;
 }
+
+// Triangle
+
+//Centroid of Triangle
+exports.CoT = (x1,y1,x2,y2,x3,y3) => {
+    return ("x:" (x1+x2+x3)/3 + " y:" (y1+y2+y3)/3)
+}
+exports.CoTx = (x1,y1,x2,y2,x3,y3) => {
+    return ((x1+x2+x3)/3)
+}
+exports.CoTy = (x1,y1,x2,y2,x3,y3) => {
+    return ((y1+y2+y3)/3)
+}
+
 
 // Area things
 
