@@ -16,6 +16,7 @@ mathrry.revdivi
 mathrry.revmulti
 ```
 ```mathrry.revdivi``` is calculated by inverting the value. Think of it as the opposite of ```mathrry.divi```.  
+  
 ```mathrry.revmulti``` also same as above.  
 
 ## Coordinate things
