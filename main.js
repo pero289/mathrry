@@ -31,11 +31,15 @@ exports.Dbtp = (x1,y1,x2,y2) => {
     return value;
 }
 
+exports.Dfptl = (x, y, exp) => {
+    return exp;
+}
+
 // Triangle
 
 //Centroid of Triangle
 exports.CoT = (x1,y1,x2,y2,x3,y3) => {
-    return ("x:" (x1+x2+x3)/3 + " y:" (y1+y2+y3)/3)
+    return ("x:" + (x1+x2+x3)/3 + " y:" + (y1+y2+y3)/3)
 }
 exports.CoTx = (x1,y1,x2,y2,x3,y3) => {
     return ((x1+x2+x3)/3)
