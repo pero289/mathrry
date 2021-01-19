@@ -1,7 +1,7 @@
 {
   "name": "mathrry",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.3",
+  "description": "Simple Math Module",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/Shio7/node-math.git"
   },
+  "keywords": [
+    "nodejs",
+	"math",
+    "number"
+  ],
   "author": "Shio",
   "license": "GPL-3.0",
   "bugs": {
