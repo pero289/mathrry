@@ -1,6 +1,6 @@
 {
   "name": "mathrry",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Simple Math Module",
   "main": "main.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shio7/node-math.git"
+    "url": "git+https://github.com/Shio7/mathrry.git"
   },
   "keywords": [
     "nodejs",
@@ -18,7 +18,7 @@
   "author": "Shio",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Shio7/node-math/issues"
+    "url": "https://github.com/Shio7/mathrry/issues"
   },
-  "homepage": "https://github.com/Shio7/node-math#readme"
+  "homepage": "https://github.com/Shio7/mathrry#readme"
 }
