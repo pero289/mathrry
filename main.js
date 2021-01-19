@@ -31,9 +31,8 @@ exports.Dbtp = (x1,y1,x2,y2) => {
     return value;
 }
 
-exports.Dfptl = (x, y, exp) => {
-    exp = exp.replace(/ /gi,'')
-    value = exp
+exports.Dbptl = (x, y, expa, expb, expc) => {
+    value = Math.abs(expa*x + expb*y + expc)/Math.sqrt(Math.pow(expa,2)+Math.pow(expb,2))
     return value;
 }
 

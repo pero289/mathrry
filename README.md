@@ -27,7 +27,13 @@ mathrry.revmulti
 ```js
 mathrry.Dbtp(x1,y1,x2,y2)
 ```  
-`x1, x2` are the coordinates of the first point, `x2, y2` are the coordinates of the second point.  
+`x1, x2` are the coordinates of the first point, `x2, y2` are the coordinates of the second point.
+
+#### The Distance between point and line
+```js
+mathrry.Dbptl(x,y,exp-a,exp-b,exp-c)
+```
+`x,y` are the coordinates of the point, `exp-a, exp-b exp-c` are from `ax+by+c=0`. Put it in order.
 
 ### Triangle
 #### Centroid of Triangle
