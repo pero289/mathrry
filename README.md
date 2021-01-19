@@ -19,6 +19,7 @@ mathrry.revmulti
   
 ```mathrry.revmulti``` also same as above.  
 
+# 2D
 ## Coordinate things
 
 ### Points
@@ -42,7 +43,7 @@ mathrry.CoTy(x1,y1,x2,y2,x3,y3)
 `mathrry.CoTy` returns the y-coordinate value of the centroid of triangle.  
   
 `x1, y1` are the coordinates of the first point, `x2, y2` are the coordinates of the second point, and `x3, y3` are the coordinates of the third point.  
- 
+
 ## Area things
 ### Triangle
 #### The Area of triangle with 3 points
