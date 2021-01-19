@@ -27,7 +27,7 @@ mathrry.revmulti
 ```js
 mathrry.Dbtp(x1,y1,x2,y2)
 ```  
-`x1, x2` are the coordinates of the first point, `x2, y2` are the coordinates of the second point.
+`x1, x1` are the coordinates of the first point, `x2, y2` are the coordinates of the second point.
 
 #### The Distance between point and line
 ```js
@@ -71,7 +71,12 @@ mathrry.AoC(r)
 
 # 3D
 ## Coordinate things
-
+### Points
+#### The Distance between two points in 3D
+```js
+mathrry.TDbtp(x1,y1,z1,x2,y2,z2)
+```
+`x1, x1, z1` are the coordinates of the first point, `x2, y2, z2` are the coordinates of the second point.  
 ### Cube
 #### The Diagonal of the cube
 ```js
