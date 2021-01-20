@@ -87,5 +87,11 @@ mathrry.TDbtp(x1,y1,z1,x2,y2,z2)
 ```js
 mathrry.TdoC(l)
 ```
-`l` is the length of one side of the cube.
+`l` is the length of one side of the cube.  
+### Sphere
+#### Volume of Sphere
+```js
+mathrry.TVoS(r)
+```
+`r` is the radius of Sphere.
 

@@ -95,8 +95,18 @@ exports.TDbtp = (x1,y1,z1,x2,y2,z2) => {
 
 // Cubes
 exports.TdoC = (l) => {
-    if (r>0) {
+    if (l>0) {
         return Math.sqrt(Math.pow(l,2)*3)
+    }
+    else {
+        return Error;
+    }
+}
+
+//Sphere
+exports.TVoS = (r) => {
+    if (r>0) {
+        return (4/3)*Math.PI*Math.pow(r,3)
     }
     else {
         return Error;
