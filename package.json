@@ -1,6 +1,6 @@
 {
   "name": "mathrry",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Simple Math Module",
   "main": "main.js",
   "scripts": {
