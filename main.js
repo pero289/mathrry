@@ -143,3 +143,14 @@ exports.Fa = (f,m) => {
 exports.S = (v,a,t) => {
     return v*t + 0.5*a*Math.pow(t,2)
 }
+exports.Sv = (s,a,t) => {
+    return (s - 0.5*a*Math.pow(t,2))/t
+}
+exports.Sa = (s,v,t) => {
+    return (s-v*t)/(0.5*Math.pow(t,2))
+}
+
+// 2as = v^2 - v0^2
+exports.A = (v0,v,s) => {
+    return (Math.pow(v,2)-Math.pow(v0,2))/(2*s)
+}

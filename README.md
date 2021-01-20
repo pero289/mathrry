@@ -125,3 +125,20 @@ Finding the acceleration of an object by force and mass.
 mathrry.S(v,a,t)
 ```
 `v` is the initial velocity of an object. `t` is the time of the force was applied to the object. `a` is the Acceleration of an object.  
+#### Extra
+##### V0 = (S - 1/2at^2)/t
+```js
+mathrry.Sv(s,a,t)
+```
+`s` is the moving space of the object. `a` is the Acceleration of an object. `t` is the time of the force was applied to the object.  
+##### a = (s - v0t)/(0.5t^2)
+```js
+mathrry.Sa(s,v,t)
+```
+`s` is the moving space of the object. `v` is the initial velocity of an object. `t` is the time of the force was applied to the object.  
+
+### 2as = v^2 - v0^2
+```js
+mathrry.A(v0,v,s)
+```
+`v0` is the initial velocity of an object. `v` is the later speed of the object. `s` is the moving space of the object.
