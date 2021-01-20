@@ -88,6 +88,13 @@ mathrry.TDbtp(x1,y1,z1,x2,y2,z2)
 mathrry.TdoC(l)
 ```
 `l` is the length of one side of the cube.  
+
+#### Volume of Cube
+```js
+mathrry.TVoC(l)
+```
+`l` is the length of one side of the cube.
+
 ### Sphere
 #### Volume of Sphere
 ```js

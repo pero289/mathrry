@@ -94,6 +94,7 @@ exports.TDbtp = (x1,y1,z1,x2,y2,z2) => {
 }
 
 // Cubes
+// The Diagonal of the cube
 exports.TdoC = (l) => {
     if (l>0) {
         return Math.sqrt(Math.pow(l,2)*3)
@@ -102,8 +103,19 @@ exports.TdoC = (l) => {
         return Error;
     }
 }
+// Cube
+// Volume of Cube
+exports.TVoC = (l) => {
+    if (l>0) {
+        return Math.pow(l,3)
+    }
+    else {
+        return Error;
+    }
+}
 
 //Sphere
+// Volume of Sphere
 exports.TVoS = (r) => {
     if (r>0) {
         return (4/3)*Math.PI*Math.pow(r,3)
