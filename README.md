@@ -102,3 +102,16 @@ mathrry.TVoS(r)
 ```
 `r` is the radius of Sphere.
 
+# Physics
+## Force
+### F = ma
+```js
+mathrry.F(m,a)
+```
+`m` is the mass of an object. `a` is the Acceleration of an object.  
+
+### S = V0t + 1/2at^2
+```js
+mathrry.S(v,a,t)
+```
+`v` is the initial velocity of an object. `t` is the time of the force was applied to the object. `a` is the Acceleration of an object.  

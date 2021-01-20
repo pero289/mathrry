@@ -124,3 +124,15 @@ exports.TVoS = (r) => {
         return Error;
     }
 }
+
+//Physics
+//F = ma
+exports.F = (m,a) => {
+    return m*a
+}
+
+
+//S = V0t + 1/2at^2
+exports.S = (v,a,t) => {
+    return v*t + 0.5*a*Math.pow(t,2)
+}
