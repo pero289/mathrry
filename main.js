@@ -130,7 +130,14 @@ exports.TVoS = (r) => {
 exports.F = (m,a) => {
     return m*a
 }
-
+// m = F/a
+exports.Fm = (f,a) => {
+    return f/a
+}
+// a = F/m 
+exports.Fa = (f,m) => {
+    return f/m
+}
 
 //S = V0t + 1/2at^2
 exports.S = (v,a,t) => {

@@ -108,8 +108,18 @@ mathrry.TVoS(r)
 ```js
 mathrry.F(m,a)
 ```
-`m` is the mass of an object. `a` is the Acceleration of an object.  
-
+`m` is the mass of an object. `a` is the Acceleration of an object. 
+#### Extra
+##### m = F/a
+```js
+mathrry.Fm(f,a)
+```
+Finding the mass of an object by force and acceleration.
+##### a = F/m 
+```js
+mathrry.Fa(f,m)
+```
+Finding the acceleration of an object by force and mass.  
 ### S = V0t + 1/2at^2
 ```js
 mathrry.S(v,a,t)
